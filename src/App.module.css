@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .headerContainer{
+    max-width: 900px;
+    margin: 40px auto;
+}
+.container{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+.leftSide{
+    flex: 1;
+    margin-right: 40px;
+}
+.container .leftSide h1{
+margin: 0;
+font-size: 40px;
+color: #3A4B5C;
+}
+.container .leftSide p{
+    font-size: 16px;
+    margin-bottom: 40px;
+    color:#647D8B ;
+}
+.container .leftSide input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid rgba(150, 163, 171, .5);
+    padding: 10px 2px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline: 0;
+}
+.container .leftSide input:disabled{
+    opacity: .5;
+}
+.container .leftSide button{
+    background-color: #227c9d;
+    font-size: 20px;
+    border: 0;
+    color: #FFF;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px 0;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: .3s;
+}
+.container .leftSide button:hover{
+    opacity: .8;
+}
+.container .leftSide button:disabled{
+    opacity: .5;
+}
+
+
+
+.rightSide{
+    flex: 1;
+    margin-left: 40px;
+    display: flex;
+}
+.container .rightSide .grid{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.rightBig{
+    flex: 1;
+    display: flex;
+}
+.container .rightSide .RightArrow{
+    position: absolute;
+    background-color: #227c9D;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #FFF;
+    margin-left: -35px;
+    margin-top: 145px;
+}
