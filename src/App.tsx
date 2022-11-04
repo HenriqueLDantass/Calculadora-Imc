@@ -29,8 +29,6 @@ const App = () =>{
 
   return(
     <div className={styles.main}>
-     
-      
       <div className={styles.container}>
           <div className={styles.leftSide}>
             <h1>Calcule o seu imc</h1>
