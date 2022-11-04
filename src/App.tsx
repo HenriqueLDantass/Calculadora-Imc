@@ -29,11 +29,7 @@ const App = () =>{
 
   return(
     <div className={styles.main}>
-      <header>
-          <div className={styles.headerContainer}>
-            <img src={poweredImage} alt="" width={150} />
-          </div>
-      </header>
+     
       
       <div className={styles.container}>
           <div className={styles.leftSide}>
