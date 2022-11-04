@@ -1,7 +1,7 @@
 # Sobre o projeto
 deploy: https://effervescent-squirrel-0768f1.netlify.app
 
-O projeto serve para calcular o IMC (Índice de Massa Corporal), bastar preencher os campos vazios para o calculo ser feito!
+O projeto serve para calcular o IMC (Índice de Massa Corporal), bastar preencher os campos vazios para o cálculo ser feito!
 
 ## Layout mobile
 ![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
